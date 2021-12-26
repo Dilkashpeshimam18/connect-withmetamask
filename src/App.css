@@ -1,0 +1,32 @@
+.app{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+ 
+}
+.btn{
+    text-align: center;
+    justify-content: center;
+    margin-right: 20px;
+    background-color: rgb(64, 64, 197);
+    color: white;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.text{
+    font-size: 12px;
+}
+@media screen and (max-width: 500px){
+    .text{
+        font-size: 9px;
+    }
+    .btn{
+        padding: 10px 15px;
+        font-size: 12px;
+        margin-left: 20px;
+    }
+}
+
+
